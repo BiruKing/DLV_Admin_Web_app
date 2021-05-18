@@ -1,0 +1,40 @@
+GET http://localhost:312/
+# POST http://localhost:312/
+# DELETE http://localhost:312/
+# UPDATE http://localhost:312/
+
+
+
+# GET http://localhost:300/
+# Content-Type: application/json
+# {
+#     [
+#       {
+#         id: 1,
+#         name: 'TV',
+#         price: 1000
+#       },
+#       {
+#         id: 2,
+#         name: 'Mobile',
+#         price: 500
+#       },
+#       {
+#         id: 3,
+#         name: 'Book',
+#         price: 20
+#       },
+#     ],
+#     columns: [{
+#       dataField: 'id',
+#       text: 'Product ID'
+#     },
+#     {
+#       dataField: 'name',
+#       text: 'Product Name'
+#     }, {
+#       dataField: 'price',
+#       text: 'Product Price',
+#       sort: true
+#     }]
+#   } 
